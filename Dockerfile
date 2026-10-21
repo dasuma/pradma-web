@@ -1,6 +1,6 @@
 # Requiere `output: 'standalone'` en next.config.ts
 
-FROM node:20-slim AS base
+FROM node:24.22.1-slim AS base
 
 # Stage 1: Install dependencies
 FROM base AS deps
